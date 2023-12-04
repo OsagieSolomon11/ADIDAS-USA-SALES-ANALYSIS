@@ -1,0 +1,82 @@
+Adidas, is a German manufacturer of athletic shoes and apparel and sporting goods. In the early 21st century it was the largest sportswear manufacturer in Europe and the second largest (after Nike) in the world.
+
+
+This analysis covers the company sales between 2021 and 2022. The tool used in this analysis is Power BI.
+
+The problem statements and metrics I will derive my insights from are:
+
+What sales method generated the highest sales?
+What are the top 3 products with the highest sales?
+What region and state recorded the highest sales and profit?
+Which retailer generated the highest sales?
+What Are The Top 5 States With The Highest Sales?
+Before this analysis is being carried out. I will ensure my ETL (extraction, transformation, and loading) procedures is taken to ensure my raw data is ready for analysis.
+
+The first step is to load my raw data into power query in Power BI for data transformation. I have three tables in my dataset.
+
+Then i perfromed my data modelling
+
+List of Measures To Be Calculated
+
+Total Unit Sold: To calculate the total number of unit of products sold.
+
+2. Total Sales: To calculate the total number of revenue generated.
+
+
+3. Average Price: This is the average price of each product.
+
+
+4. Profit: This is to calculate the total profit accrued from the sales
+
+
+5. Average Operating Margin: This is the average value of operating margin. Note that this will be in percentage.
+
+
+6. Transaction Count: This is the total number of transactions made.
+
+
+7. SalesYTD (Year-to-Date Sales): The total sales value from the beginning of the current calendar year up to the current date. It represents the cumulative sales for the year.
+
+
+8. ProfitYTD (Year-to-Date Profit): The total profit value from the beginning of the current calendar year up to the current date. It represents the cumulative profit for the year, considering costs and revenue.
+
+
+9. ProfitMOM (Month-over-Month Profit): The change in profit from the current month compared to the previous month. It calculates the percentage increase or decrease in profit on a month-to-month basis.
+
+
+10. SalesMoM (Month-over-Month Sales): SalesMoM is a measure that calculates the change in sales from the current month compared to the previous month. It typically represents the percentage increase or decrease in sales on a month-to-month basis.
+
+
+11. TransCountMoM (Month-over-Month Transaction): is a measure that calculates the change in number of transaction from the current month compared to the previous month.
+
+
+Without further delay, I want to move on to answering the problem statements. And I will solve this problem with reports and charts to generate my insights.
+
+What sales method generated the highest sales?
+
+The highest sales came from in-store with $356.64M, followed by out-let method with $295.59M.
+
+2. What are the top 3 products with the highest sales?
+
+
+The best selling product is Men’s Street Footwear with $208.83M, the second is Women’s Apparel with $179.04M, and third is Men’s Athletic Footwear with sales of $153.67M.
+
+3. What region and state recorded the highest sales and profit?
+
+
+
+The west region recorded the highest sales and also in profit with $269.94M and $89.61M respectively.
+
+4. Which retailer generated the highest sales?
+
+
+West Gear had the highest sales with $242.96M, followed by Foot Locker with sales of $220.96M
+
+5. What Are The Top 5 States With The Highest Sales?
+
+
+The first state on this list is New York with $64.2M sales, followed by California, Florida, Texas, and South Carolina.
+
+Now that I am done with giving insights. I will go ahead and create my dashboards. I will create 4 dashboards to get a wider report on this analysis.
+
+FOR FULL DOCUMENATION AND DASHBOARD, CLICK THIS LINK: https://medium.com/@osagiesolomix/adidas-usa-sales-analysis-b2f20379d267
